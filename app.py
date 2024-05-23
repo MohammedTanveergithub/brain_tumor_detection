@@ -45,14 +45,12 @@ def upload():
         "No Tumor":" → Be Happy, There is was No Sign of Any Tumor in your MRI",
         "Pituitary Tumor":" → A pituitary tumor is a tumor that forms in the pituitary gland near the brain that can cause changes in hormone levels in the body. This illustration shows a smaller tumor (microadenoma). Pituitary tumors are abnormal growths that develop in your pituitary gland."}
         result = result+d[result]
-        #result2 = result+d[result]
-        #result = [result]
-        #result3 = d[result]        
+             
         print(result)
-        #print(result3)
+        
         os.remove(file_path)
         return result
-        #return result3
+        
     return None
 
 if __name__ == '__main__':
